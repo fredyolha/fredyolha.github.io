@@ -14,6 +14,4 @@ function goLeft() {
      setTimeout(goRight, 50);
   });
 }
-
-
 setTimeout(goRight, 50);
