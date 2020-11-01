@@ -100,6 +100,11 @@ a:hover {
   margin-right: 30px;
 }
 
+.left-img {
+  float: left;
+  margin-right: 30px;
+}
+
 .mobile-img {
   width: 25%;
   float: right;
@@ -108,11 +113,11 @@ a:hover {
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #f5b461, #ec524b);
-  background-image: -moz-linear-gradient(top, #f5b461, #ec524b);
-  background-image: -ms-linear-gradient(top, #f5b461, #ec524b);
-  background-image: -o-linear-gradient(top, #f5b461, #ec524b);
-  background-image: linear-gradient(to bottom, #f5b461, #ec524b);
+  background-image: -webkit-linear-gradient(top, #f7f1e3, #f5b461);
+  background-image: -moz-linear-gradient(top, #f7f1e3, #f5b461);
+  background-image: -ms-linear-gradient(top, #f7f1e3, #f5b461);
+  background-image: -o-linear-gradient(top, #f7f1e3, #f5b461);
+  background-image: linear-gradient(to bottom, #f7f1e3, #f5b461);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
