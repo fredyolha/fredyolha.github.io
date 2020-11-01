@@ -1,53 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Fred's Personal Site</title>
+  <title>Frederik Olha</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <th rowspan="5">
-          <img src="images/frederik-profile.png" alt="Frederik profile pic" height="180" width="180">
-      </th>
-      <th><h1>Frederik Oľha</h1></th>
-    </tr>
-    <tr>
-      <td>Senior Software Engineer in Test</td>
-    </tr>
-    <tr>
-      <td><strong>Oracle NetSuite</strong></td>
-    </tr>
-    <tr>
-      <td>Barcelona, Catalunya, Spain</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/frederik-o%C4%BEha-5409b25b/" target="_blank">LinkedIn</a></td>
-    </tr>
-  </table>
-  <p>Started a as a QA, switched to development and now Developer in QA</p>
-  <p></p>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud" width="150px">
+    <div class="title-text">
+      <h1>I'm Frederik.</h1>
+      <h2>your developer / QE.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud"  width="150px">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <hr>
-  <h3>Languages</h3>
-  <ul>
-    <li>Slovak</li>
-    <li>Czech</li>
-    <li>Polish</li>
-    <li>English</li>
-    <li>German</li>
-    <li>French</li>
-    <li>Spanish</li>
-  </ul>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Gym</li>
-    <li>Development</li>
-    <li>Netflix & Chill</li>
-  </ol>
-  <hr>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/photos/circle-cropped.png" alt="fred-profile" width="15%">
+      <h2>Dobrý deň!</h2>
+      <p class="intro">I am Fred from the Slovak Republic. Currently making my living by being a Senior Software Engineer in Test for Oracle NetSuite in Barcelona, Catalunya (Spain)</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/flavicon/web-programming.svg" alt="webcode">
+        <h3>Java 8 SE & Selenium Automation</h3>
+        <p>Been assigned to numberous projects across several huge corporations (SAP Concur, Infor, Oracle Netsuite), gained 5+years of experience working with the test automation frameworks, automated test cases development, java development and quality assurance.</p>
+      </div>
+      <div class="skill-row">
+        <img class="mobile-img" src="images/mobile-app.png" alt="mobile-app">
+        <h3>iOS & Android Development</h3>
+        <p>Fluency in Software Development allowed me to learn how to develop for both mobile platforms (iOS and Android) which resulted being in charge of the iOS app development, distribution to the customers and resulted in the seniority of my position while working on the EzRMS iOS app.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Contact me!</h2>
+      <p class="contact-message">Do you feel like getting in touch? Feel free to use the provided e-mail or just simply connect via the LinkedIn profile! Cheers!</p>
+      <a class="btn" href="mailto:fredyolha@gmail.com">Send mail</a>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/fredyfromslovakia/">LinkedIn</a>
+  </div>
 </body>
-
 </html>
