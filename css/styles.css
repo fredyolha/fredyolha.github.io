@@ -55,7 +55,7 @@ a:hover {
 .middle-container {
   margin: 100px 0;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 981px) {
   .skill-row {
     height: 240px;
   }
@@ -65,6 +65,7 @@ a:hover {
   width: 60%;
   margin: 0 auto;
   text-align: left;
+  height: auto;
 }
 
 .intro {
