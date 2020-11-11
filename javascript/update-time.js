@@ -1,6 +1,7 @@
 var showTime = true;
 var updateInterval = 1000;
 var holdingElement = document.querySelector("#time-element");
+var clockInterval = setInterval(updateTimeDate, updateInterval);
 
 function updateTimeDate(){
     showTime ? displayTime() : displayDate();    
@@ -24,5 +25,15 @@ function switchDisplay(){
     }
     updateTimeDate();
 }
+
+function switchContent(){
+    clearInterval(clockInterval);
+    holdingElement.innerHTML = "<i class='fas fa-desktop'></i> Screen width is " + window.innerWidth;
+}
+
+function switchContent2(){
+    holdingElement.innerHTML = "<i class='fas fa-desktop'></i> Screen width is " + window.innerWidth;
+}
+
+
 updateTimeDate();
-setInterval(updateTimeDate, updateInterval);
