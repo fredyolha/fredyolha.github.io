@@ -17,39 +17,14 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <script src="https://kit.fontawesome.com/21f59ececc.js" crossorigin="anonymous"></script>
-  <script language="JavaScript" src="javascript/bottom-cloud.js" type="text/javascript"></script>
+  <meta http-equiv="pragma" content="no-cache" />
 
+  <script defer src="javascript/bottom-cloud.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a id="time-element" class="navbar-brand" href="#" onclick="switchDisplay()"><i class='far fa-clock'></i></a>
-    <script src="javascript/update-time.js" type="text/javascript"></script>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://www.linkedin.com/in/fredyfromslovakia/">LinkedIn</a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://github.com/fredyolha">GitHub</a>
-        </li>
-        <li>
-          <a class="nav-link" href="mailto:fredyolha@gmail.com">Send mail</a>
-        </li>
-        <li>
-          <a class="nav-link" href="imageassets.html">Image Assets</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <script src="javascript/navigationJS/top-container.js" type="text/javascript"></script>
+  <script defer src="javascript/update-time.js" type="text/javascript"></script>
   <div class="top-container">
     <div class="title-text">
       <h1>I'm Frederik.</h1>
@@ -59,13 +34,11 @@
       <img class="bottom-cloud" src="images/cloud.png" alt="cloud" width="150px">
       <img id="mountain" src="images/mountain.png" alt="mountain-img">
     </div>
-    <script language="JavaScript" src="javascript/bottom-cloud.js" type="text/javascript"></script>
   </div>
-
   <div class="middle-container">
     <div class="profile">
-      <img src="images/photos/circle-cropped.png" alt="fred-profile" width="15%">
-      <h2>Dobrý deň!</h2>
+      <img src="images/photos/fred-cute.png" alt="fred-profile" width="15%">
+      <h2 style="padding-top: 20px;">Dobrý deň!</h2>
       <p class="intro">I am Fred from the Slovak Republic. Currently making my living as a Senior SET for Oracle
         NetSuite based in Barcelona, Catalunya (Spain)</p>
     </div>
@@ -85,7 +58,6 @@
         <p>Comprehension in Software Development allowed me to learn how to develop for both mobile platforms (iOS and
           Android) which resulted being in charge of the iOS app development, distribution to the customers and increase
           of the seniority of my position while working on the EzRMS iOS app.</p>
-
       </div>
     </div>
     <hr>
@@ -93,15 +65,15 @@
       <h2>Contact me!</h2>
       <p class="contact-message">If you would like to get in touch, feel free to use the e-mail provided or simply
         connect via my LinkedIn profile! Cheers!</p>
-      <a class="btn btn-dark btn-lg" href="mailto:fredyolha@gmail.com">Send <i class="fas fa-envelope-open-text"></i></a>
-      <a class="btn btn-dark btn-lg" href="https://www.linkedin.com/in/fredyfromslovakia/">Connect <i class="fab fa-linkedin"></i></a>
+      <a class="btn btn-dark btn-lg" href="mailto:fredyolha@gmail.com">Send <i
+          class="fas fa-envelope-open-text"></i></a>
+      <a class="btn btn-dark btn-lg" href="https://www.linkedin.com/in/fredyfromslovakia/">Connect <i
+          class="fab fa-linkedin"></i></a>
       <a class="btn btn-dark btn-lg" href="https://github.com/fredyolha">Access <i class="fab fa-github"></i></a>
     </div>
   </div>
   <nav class="navbar sticky-bottom navbar-dark bg-dark">
-
-    <a class="navbar-text" href="#">2020 Frederik Olha</a>
+    <a class="navbar-text"  id="bottom-alingmentext"><i class="far fa-copyright"></i> 2020 Frederik Olha</a>
   </nav>
 </body>
-
 </html>

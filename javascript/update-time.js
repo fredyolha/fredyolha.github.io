@@ -1,13 +1,17 @@
 var showTime = true;
 var updateInterval = 1000;
+var holdingElement = document.querySelector("#time-element");
 
 function updateTimeDate(){
-    if(showTime){
-        $("#time-element").text(new Date().toLocaleTimeString());
-    } else {
-        $("#time-element").text(new Date().toLocaleDateString());
-    }
-    
+    showTime ? displayTime() : displayDate();    
+}
+
+function displayTime(){
+    holdingElement.innerHTML =  "<i class='far fa-clock'></i> " + new Date().toLocaleTimeString();
+}
+
+function displayDate(){
+    holdingElement.innerHTML = "<i class='fas fa-calendar-alt'></i> " + new Date().toLocaleDateString();
 }
 
 function switchDisplay(){
