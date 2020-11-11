@@ -55,10 +55,15 @@ a:hover {
 .middle-container {
   margin: 100px 0;
 }
+@media screen and (min-width: 980px) {
+  .skill-row {
+    height: 240px;
+  }
+}
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 60%;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -70,7 +75,7 @@ a:hover {
 #cute-picture{
   width: 15%;
 }
-@media screen and (max-width: 981px) {
+@media screen and (max-width: 980px) {
   .skill-row {
     width: 90%;
     margin: 70px auto;
@@ -104,6 +109,12 @@ a:hover {
   .bottom-buttons{
     width: 60%;
     font-size: 3rem;
+  }
+  .carousel-control-prev-icon{
+    visibility: hidden;
+  }
+  .carousel-control-next-icon{
+    visibility: hidden;
   }
 }
 
@@ -158,3 +169,12 @@ a:hover {
 #bottom-alingmentext{
   margin: auto;
 }
+
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%66c99' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%66c99' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
