@@ -108,6 +108,7 @@ a:hover {
 
 #animation-div{
   position:relative;
+  width: 512px;
   margin: 0 auto;
 }
 
