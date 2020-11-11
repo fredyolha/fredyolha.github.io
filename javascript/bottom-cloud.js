@@ -1,17 +1,17 @@
-var widthBottom = $(window).width()-150;
-var velocity = 5000;
+var velocity = 4000;
+var timeout = 50;
 function goRight() {
     $(".bottom-cloud").animate({
-    left: widthBottom-50
-  }, 8000, function() {
-     setTimeout(goLeft, 50);
+    left:  $("#animation-div").width()-150
+  }, velocity, function() {
+     setTimeout(goLeft, timeout);
   });
 }
 function goLeft() {
     $(".bottom-cloud").animate({
-    left: 50
-  }, 8000, function() {
-     setTimeout(goRight, 50);
+    left:  0
+  }, velocity, function() {
+     setTimeout(goRight, timeout);
   });
 }
-setTimeout(goRight, 50);
+setTimeout(goRight, timeout);
