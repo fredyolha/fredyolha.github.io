@@ -63,14 +63,29 @@ a:hover {
   text-align: left;
 }
 
-.pro {
-  text-decoration: underline;
-}
-
 .intro {
   width: 30%;
   margin: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .skill-row {
+    width: 90%;
+    margin: 30px auto;
+    text-align: left;
+  }
+
+  .intro {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+
 
 .title-text{
   padding-top: 2%;
@@ -93,20 +108,9 @@ a:hover {
 
 #animation-div{
   position:relative;
-  margin: 0 0;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 600px) {
-  #animation-div{
-    margin: 0 10%;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  #animation-div{
-    margin: 0 30%;
-  }
-}
 .code-img {
   width: 25%;
   float: left;
