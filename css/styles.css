@@ -68,7 +68,7 @@ a:hover {
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .skill-row {
     width: 90%;
     margin: 30px auto;
