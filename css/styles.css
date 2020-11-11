@@ -77,10 +77,27 @@ a:hover {
   width: 15%;
 }
 @media screen and (max-width: 980px) {
+
+  #time-element{
+    font-size: 3rem;
+  }
+
+  .top-container{
+    padding-top: 10%;
+  }
+  .nav-link, .sticky-bottom {
+    font-size: 3rem;
+  }
   .skill-row {
     width: 90%;
-    margin: 70px auto;
+    height: 650px;
+    margin: 20px auto;
     text-align: left;
+  }
+  
+  .navbar-toggler-icon{
+    height: 60px;
+    width: 60px;
   }
 
   .intro {
