@@ -2,6 +2,7 @@ var showTime = true;
 var updateInterval = 1000;
 var holdingElement = document.querySelector("#time-element");
 var clockInterval = setInterval(updateTimeDate, updateInterval);
+let resMessage = "<i class='fas fa-desktop'></i> Resolution: ";
 
 function updateTimeDate(){
     showTime ? displayTime() : displayDate();    
@@ -18,22 +19,14 @@ function displayDate(){
 function switchDisplay(){
     if(showTime){
         showTime = false;
-        updateInterval = 60000;
     } else {
         showTime = true;
-        updateInterval = 1000;
     }
     updateTimeDate();
 }
 
-function switchContent(){
-    clearInterval(clockInterval);
-    holdingElement.innerHTML = "<i class='fas fa-desktop'></i> Screen width is " + window.innerWidth;
-}
-
 function switchContent2(){
-    holdingElement.innerHTML = "<i class='fas fa-desktop'></i> Screen width is " + window.innerWidth;
+    holdingElement.innerHTML = resMessage + window.innerWidth + " x " + window.innerHeight;
 }
-
 
 updateTimeDate();

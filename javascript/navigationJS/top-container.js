@@ -1,7 +1,7 @@
 const topContainer = document.createElement('topContainer');
 topContainer.innerHTML = `
 <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
-<a id="time-element" class="navbar-brand" href="#" onclick="switchDisplay()" ondblclick="switchContent()"></a>
+<a id="time-element" class="navbar-brand" href="#" onclick="switchDisplay()"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
